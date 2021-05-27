@@ -1,0 +1,57 @@
+# main menu navigation | 导航栏
+menu:
+  home: /
+  archives: https://github.com/wennmu
+  goweadmin: https://github.com/wennmu/gowe-admin
+  gitee: https://gitee.com/wennmu
+
+# Personal profile | 个人简介
+author: 文沐
+blogname: 文沐  # Logo and website name | logo及网站名称
+notice:  # This is the announcement section of aside on the right | 公告部分
+github: https://github.com/wennmu
+juejin: https://juejin.cn/user/3210229685698430/posts
+zhihu: https://www.zhihu.com
+csdn: https://blog.csdn.net/ZSH_jerry
+email: 2749345597@qq.com  # email
+authorimg: https://avatars.githubusercontent.com/u/22762749?v=4 # 个人介绍头像
+
+# 网站icon图标
+favicon: https://avatars.githubusercontent.com/u/22762749?v=4
+
+# Whether to display categories and tags on the home page | 首页目录是否显示分类标签
+show_post_category: true
+show_post_tags: true
+
+# aside栏
+sidebar: true
+widgets: 
+  - notice  # 简介
+  - category  # 分类
+  - tag # 标签
+  - recent_posts  # 最近文章
+  - archive # 归档
+  - links # 友情链接
+
+links:  # 友情链接
+  - title: "文沐"
+    url: https://github.com/wennmu
+
+# Station construction time | 建站时间
+buildtime: 2020   # year
+datetime: 06/14/2020 12:00:00   # specific time, The station has been running safely | 本站已安全运行时间
+
+# 代码复制
+codeblock: 
+  copy_button: 
+    enable: true
+    result: true
+  copyright:
+    enable: false
+    content: \n/**\n* 感谢您复制代码，使用代码请注明引用出处\n* shuxhan @ https://shuxhan.com\n*/
+
+# This topic is built into the twikoo comment system |  本主题内置的是twikoo评论系统
+# Official documents | 官方文档 https://twikoo.js.org/
+# twikoo:
+envID: shuxhan-2gcz5b7m7f845ec3 # 环境变量
+visitors: true  # 是否显示文章阅读量
