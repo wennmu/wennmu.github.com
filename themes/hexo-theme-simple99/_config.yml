@@ -4,6 +4,7 @@ menu:
   archives: https://github.com/wennmu
   goweadmin: https://github.com/wennmu/gowe-admin
   gitee: https://gitee.com/wennmu
+  # search: /search
 
 # Personal profile | 个人简介
 author: 文沐
@@ -26,6 +27,7 @@ show_post_tags: true
 # aside栏
 sidebar: true
 widgets: 
+  - search
   - notice  # 简介
   - category  # 分类
   - tag # 标签
@@ -55,3 +57,7 @@ codeblock:
 # twikoo:
 envID: shuxhan-2gcz5b7m7f845ec3 # 环境变量
 visitors: true  # 是否显示文章阅读量
+
+local_search:
+  enable: true
+  top_n_per_article: 1

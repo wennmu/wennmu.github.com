@@ -103,4 +103,17 @@ theme:  hexo-theme-simple99
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+- type: git
+  repo: https://github.com/wennmu/blog.git
+  #branch: [branch]
+  #message: [message]
+  #type: ''
+#- type: git
+#  repo: https://github.com/wennmu/blog.git
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+  template: ./search.xml

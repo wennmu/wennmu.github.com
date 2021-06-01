@@ -7,6 +7,9 @@ tags:
     - vue 
     - 云开发
 categories: GoweAdmin
+toc: true
+cover: http://img0.baidu.com/it/u=1776258980,2937053072&fm=26&fmt=auto&gp=0.jpg 
+top : 3 
 ---
 A lightweight wechat cloud development console. 基于Gin框架、VUE-admin-template构建，支持云开发数据库，云开发存储，以及云函数调用。
 

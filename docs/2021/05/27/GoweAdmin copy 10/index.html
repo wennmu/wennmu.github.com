@@ -80,6 +80,7 @@
                         <div class="nav-indicator">
                         </div>
                         <ul class="menus">
+             
                             
                              
                                 <li>
@@ -162,7 +163,7 @@
                    
                 </ul>
             </div> -->
-
+            
         </nav>
     </div>
 </div>
@@ -175,7 +176,7 @@
     <article>
 
       
-        <header class="post-header no-cover">
+        <header class="post-header with-cover" style="background-image:url('http://img0.baidu.com/it/u=1776258980,2937053072&fm=26&fmt=auto&gp=0.jpg')">
       
         </header>
 
@@ -330,6 +331,18 @@
   <aside>
     <div class="aside-wrap">
     
+        <div class="search">
+	<div id="site_search">
+		<input type="text" id="local-search-input" autocomplete="off" placeholder="搜索文章..." results="0" />
+		<div id="local-search-result"></div>
+	</div>
+</div>
+
+
+
+<script src="/js/search.js"></script>
+
+    
         <!-- <section class="widget-wrap">
     <h3 class="widget-title">简介</h3>
     <div class="widget">
@@ -415,7 +428,7 @@
           </li>
         
           <li>
-            <a href="/2021/05/27/GoweAdmin%20copy%204/">GoweAdmin - A lightweight wechat cloud development console</a>
+            <a href="/2021/05/27/GoweAdmin%20copy%202/">GoweAdmin - A lightweight wechat cloud development console</a>
           </li>
         
           <li>
@@ -423,7 +436,7 @@
           </li>
         
           <li>
-            <a href="/2021/05/27/GoweAdmin%20copy%202/">GoweAdmin - A lightweight wechat cloud development console</a>
+            <a href="/2021/05/27/GoweAdmin%20copy%204/">GoweAdmin - A lightweight wechat cloud development console</a>
           </li>
         
       </ul>
@@ -474,6 +487,20 @@
 
 
     <!-- 目录 -->
+    
+      <div id="toc"></div>
+      <script>
+        $(function () {
+          var elm = $('#toc');
+          var startPos = $(elm).offset().top;
+        $.event.add(window, "scroll", function () {
+          var p = $(window).scrollTop();
+          $(elm).css('margin-left', '0px');
+          $(elm).css('position', ((p) > startPos) ? 'fixed' : 'static');
+          $(elm).css('top', ((p) > startPos) ? '20px' : '')
+        })
+      })
+      </script>
     
   </aside>
   
