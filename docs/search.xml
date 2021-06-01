@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>https访问nginx配置ssl证书配置</title>
+    <url>/2021/06/01/https%E8%AE%BF%E9%97%AEnginx%E9%85%8D%E7%BD%AEssl%E8%AF%81%E4%B9%A6%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h3 id="阿里云申请SSL证书，如有必要请购买"><a href="#阿里云申请SSL证书，如有必要请购买" class="headerlink" title="阿里云申请SSL证书，如有必要请购买"></a>阿里云申请SSL证书，如有必要请购买</h3><blockquote>
+<p>购买地址，直接百度“阿里云SSL证书”即可<br>附地址：<a href="https://www.aliyun.com/product/cas%EF%BC%88%E5%8F%AF%E8%83%BD%E4%BC%9A%E8%BF%87%E6%9C%9F%EF%BC%89">https://www.aliyun.com/product/cas（可能会过期）</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>NGINX</category>
+      </categories>
+      <tags>
+        <tag>NGINX</tag>
+        <tag>https</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>GoweAdmin - A lightweight wechat cloud development console</title>
     <url>/2021/05/27/GoweAdmin%20copy%2010/</url>
     <content><![CDATA[<p>A lightweight wechat cloud development console. 基于Gin框架、VUE-admin-template构建，支持云开发数据库，云开发存储，以及云函数调用。</p>
@@ -48,11 +63,6 @@
         <tag>vue</tag>
         <tag>云开发</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>https访问nginx配置ssl证书配置</title>
-    <url>/2021/06/01/https%E8%AE%BF%E9%97%AEnginx%E9%85%8D%E7%BD%AEssl%E8%AF%81%E4%B9%A6%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>about/index</title>
