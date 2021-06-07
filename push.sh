@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hexo g
+vuepress build decs
 
 git add .
 git commit -m "."
