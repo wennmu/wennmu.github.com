@@ -1,5 +1,11 @@
 # 博客
 
+## 安装
+
+```shell
+npm install
+```
+
 ## 运行
 
 ```shell
@@ -15,7 +21,7 @@ npm run build
 ## 提交
 
 ```shell
-cp -rf docs/.vuepress/dist ./
+cp -rf docs/.vuepress/dist/* ./
 git add .
 git commit -m "."
 
@@ -25,4 +31,19 @@ git commit -m "."
 
 ```shell
 git push
+```
+
+
+## 方便操作
+
+### 运行
+
+```shell
+sh start.sh
+```
+
+### 编译&提交&推送
+
+```shell
+sh push.sh
 ```
