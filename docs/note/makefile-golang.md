@@ -1,6 +1,6 @@
 ---
 title: golang在windows环境交叉编译的makefile代码示例
-date: 2022-03-030
+date: 2022-03-31
 tags: 
     - Makefile
     - Golang
