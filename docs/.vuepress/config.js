@@ -27,6 +27,10 @@ module.exports = {
                     {
                         text: 'Linux',
                         link: '/linux/'
+                    },
+                    {
+                        text: '其他',
+                        link: '/note/'
                     }
                 ]
                 
