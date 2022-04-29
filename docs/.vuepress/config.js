@@ -103,26 +103,26 @@ module.exports = {
             }
         ],
         sidebar: {
-            '/golang-pit-guide/': [{
-                title: 'Golang避坑指南',
+//             '/golang-pit-guide/': [{
+//                 title: 'Golang避坑指南',
+//                 collapsable: false,
+//                 children: autosidebar("/golang-pit-guide/")
+//             }],
+            '/linux/': [{
+                title: 'Linux',
                 collapsable: false,
-                children: autosidebar("/golang-pit-guide/")
+                children: autosidebar("/linux/")
             }],
-            '/linux/code-snippet/': [{
-                title: '代码片段',
+            '/golang/': [{
+                title: 'Golang',
                 collapsable: false,
-                children: autosidebar("/linux/code-snippet/")
+                children: autosidebar("/golang/")
             }],
-            '/golang/code-snippet/': [{
-                title: '代码片段',
-                collapsable: false,
-                children: autosidebar("/golang/code-snippet/")
-            }],
-            '/nginx/config/': [{
-                title: '配置',
-                collapsable: false,
-                children: autosidebar("/nginx/config/")
-            }],
+//             '/nginx/config/': [{
+//                 title: '配置',
+//                 collapsable: false,
+//                 children: autosidebar("/nginx/config/")
+//             }],
             '/note/': [{
                 title: '随笔',
                 collapsable: false,
