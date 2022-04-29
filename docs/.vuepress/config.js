@@ -18,9 +18,18 @@ module.exports = {
                 link: '/'
             },
             {
-                text: '随笔',
+                text: '文章',
                 icon: "reco-document",
-                link: '/note/'
+                items: [{
+                        text: 'Golang',
+                        link: '/golang/'
+                    },
+                    {
+                        text: 'Linux',
+                        link: '/linux/'
+                    }
+                ]
+                
             },
             {
                 text: 'Golang',
