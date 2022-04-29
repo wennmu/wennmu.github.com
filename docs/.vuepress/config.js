@@ -66,14 +66,11 @@ module.exports = {
 //                     link: '/nginx/config/'
 //                 }]
 //             },
-            {
 
-                text: 'HixNav',
-                link: 'http://www.hixnav.xyz'
-            },
             {
 
                 text: 'GoweAdmin',
+                icon: "reco-document",
                 link: '/GoweAdmin'
             }, {
                 text: '看活一分钟',
@@ -90,7 +87,11 @@ module.exports = {
                     }
                 ]
             },
+            {
 
+                text: 'HixNav',
+                link: 'http://www.hixnav.xyz'
+            },
             {
                 text: 'Github',
                 icon: "reco-github",
