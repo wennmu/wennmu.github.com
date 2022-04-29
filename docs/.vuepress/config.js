@@ -35,36 +35,41 @@ module.exports = {
                 ]
                 
             },
-            {
-                text: 'Golang',
-                icon: "reco-document",
-                items: [{
-                        text: '避坑指南',
-                        link: '/golang-pit-guide/'
-                    },
-                    {
-                        text: '代码片段',
-                        link: '/golang/code-snippet/'
-                    }
-                ]
-            },
-            {
-                text: 'Linux',
-                icon: "reco-document",
+//             {
+//                 text: 'Golang',
+//                 icon: "reco-document",
+//                 items: [{
+//                         text: '避坑指南',
+//                         link: '/golang-pit-guide/'
+//                     },
+//                     {
+//                         text: '代码片段',
+//                         link: '/golang/code-snippet/'
+//                     }
+//                 ]
+//             },
+//             {
+//                 text: 'Linux',
+//                 icon: "reco-document",
 
-                items: [{
-                    text: '代码片段',
-                    link: '/linux/code-snippet/'
-                }]
-            },
-            {
-                text: 'Nginx',
-                icon: "reco-document",
+//                 items: [{
+//                     text: '代码片段',
+//                     link: '/linux/code-snippet/'
+//                 }]
+//             },
+//             {
+//                 text: 'Nginx',
+//                 icon: "reco-document",
 
-                items: [{
-                    text: '配置',
-                    link: '/nginx/config/'
-                }]
+//                 items: [{
+//                     text: '配置',
+//                     link: '/nginx/config/'
+//                 }]
+//             },
+            {
+
+                text: 'HixNav',
+                link: 'http://www.hixnav.xyz'
             },
             {
 
