@@ -68,7 +68,7 @@ module.exports = {
                          {
                         text: 'Go代码生成器',
                         icon: "reco-document",
-                        link: 'github.com/wennmu/gint.git'
+                        link: 'https://github.com/wennmu/gint'
                     },
                     {
                         text: 'GoweAdmin',
