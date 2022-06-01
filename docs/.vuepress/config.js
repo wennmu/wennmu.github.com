@@ -34,46 +34,12 @@ module.exports = {
                     }
                 ]
                 
-            },
-//             {
-//                 text: 'Golang',
-//                 icon: "reco-document",
-//                 items: [{
-//                         text: '避坑指南',
-//                         link: '/golang-pit-guide/'
-//                     },
-//                     {
-//                         text: '代码片段',
-//                         link: '/golang/code-snippet/'
-//                     }
-//                 ]
-//             },
-//             {
-//                 text: 'Linux',
-//                 icon: "reco-document",
-
-//                 items: [{
-//                     text: '代码片段',
-//                     link: '/linux/code-snippet/'
-//                 }]
-//             },
-//             {
-//                 text: 'Nginx',
-//                 icon: "reco-document",
-
-//                 items: [{
-//                     text: '配置',
-//                     link: '/nginx/config/'
-//                 }]
-//             },
-
-            {
-
-                text: 'GoweAdmin',
-                icon: "reco-document",
-                link: '/GoweAdmin'
             }, {
-                text: '看活一分钟',
+                text: '文沐的书',
+                icon: "reco-document",
+                link: 'https://book.iflet.cn'
+            },{
+                text: '博客',
                 icon: "reco-blog",
                 items: [{
                         text: '简书',
@@ -86,12 +52,31 @@ module.exports = {
                         link: 'https://www.cnblogs.com/kamback/'
                     }
                 ]
-            },
-            {
-
-                text: 'HixNav',
-                link: 'http://www.hixnav.xyz'
-            },
+            }, {
+                text: '开源项目',
+                icon: "reco-document",
+                items: [{
+                        text: '海芯导航',
+                        icon: "reco-document",
+                        link: 'http://www.hixnav.xyz'
+                    },
+                    {
+                        text: '导出书签插件',
+                        icon: "reco-document",
+                        link: 'https://microsoftedge.microsoft.com/addons/detail/export-bookmarks-to-json/bphcjnoolbcakejfjkjjflkgebndlkef'
+                    },
+                         {
+                        text: 'Go代码生成器',
+                        icon: "reco-document",
+                        link: 'github.com/wennmu/gint.git'
+                    },
+                    {
+                        text: 'GoweAdmin',
+                        icon: "reco-document",
+                        link: '/GoweAdmin'
+                    }
+                ]
+            }, 
             {
                 text: 'Github',
                 icon: "reco-github",
