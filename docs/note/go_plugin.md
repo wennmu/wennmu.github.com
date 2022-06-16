@@ -44,6 +44,7 @@ go build -buildmode=plugin -o plugin/user_new.so libs/user/main.go
 编写主函数main.go
 
 ```go
+
 package main
 
 import (
@@ -56,23 +57,18 @@ type TypeInterface interface {
 }
 
 func main() {
-	p, err := plugin.Open("plugin/user.so")
-	if err != nil {
-		panic(err)
-	}
-	u, err := p.Lookup("U")
-	if err != nil {
-		panic(err)
-	}
-	ui := u.(TypeInterface)
+	ui := load("plugin/user.so")
 	fmt.Println(ui.Get())
 
-	ui = reload()
+	ui = load("plugin/user1.so")
 	fmt.Println(ui.Get())
+
+	//&{1 zhangsan}
+	//&{1 zhangsan1}
 }
 
-func reload() TypeInterface {
-	p, err := plugin.Open("plugin/user_new.so")
+func load(path string) TypeInterface {
+	p, err := plugin.Open(path)
 	if err != nil {
 		panic(err)
 	}
@@ -82,6 +78,7 @@ func reload() TypeInterface {
 	}
 	return u.(TypeInterface)
 }
+
 
 ```
 
