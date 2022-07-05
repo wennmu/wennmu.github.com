@@ -66,12 +66,27 @@ cover:
                             let reader = new FileReader();
                             reader.readAsDataURL(file);
                             reader.onload = function(e) {
-                                self.tableData[num].imgs1.push(e.target.result)
+                                // 压缩
+                                let image = new Image()
+                                image.src= e.target.result
+                                let dataUrl = self.compress(image, image.width, image.height, 0.7)
+                                self.tableData[num].imgs1.push(dataUrl)
                             }
                         }
 
                     }
                 }
+            },
+            compress: function(img, width, height, ratio){
+                let canvas = document.createElement("canvas");
+                canvas.width = width;
+                canvas.height = height;
+
+                let ctx = canvas.getContext("2d")
+                ctx.drawImage(img, 0, 0, width, height);
+
+                let imgUrl = canvas.toDataURL("image/jpeg",ratio)
+                return imgUrl
             }
         }
         })
