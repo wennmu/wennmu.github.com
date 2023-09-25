@@ -58,7 +58,7 @@ module.exports = {
                 items: [{
                         text: '海芯导航',
                         icon: "reco-document",
-                        link: 'http://www.hixnav.xyz'
+                        link: 'https://github.com/hixnav/hixnav'
                     },
                     {
                         text: '导出书签插件',
