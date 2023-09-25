@@ -65,11 +65,6 @@ module.exports = {
                         icon: "reco-document",
                         link: 'https://microsoftedge.microsoft.com/addons/detail/export-bookmarks-to-json/bphcjnoolbcakejfjkjjflkgebndlkef'
                     },
-                         {
-                        text: 'Go代码生成器',
-                        icon: "reco-document",
-                        link: 'https://github.com/wennmu/gint'
-                    },
                     {
                         text: 'GoweAdmin',
                         icon: "reco-document",
