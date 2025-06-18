@@ -21,6 +21,9 @@ module.exports = {
                 text: '文章',
                 icon: "reco-document",
                 items: [{
+                        text: 'AI',
+                        link: '/ai/'
+                    },{
                         text: 'Golang',
                         link: '/golang/'
                     },
