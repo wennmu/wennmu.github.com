@@ -102,6 +102,11 @@ module.exports = {
                 collapsable: false,
                 children: autosidebar("/golang/")
             }],
+            '/ai/': [{
+                title: 'AI',
+                collapsable: false,
+                children: autosidebar("/ai/")
+            }],
 //             '/nginx/config/': [{
 //                 title: '配置',
 //                 collapsable: false,
